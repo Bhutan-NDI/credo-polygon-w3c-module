@@ -1,6 +1,6 @@
 import type { DidDocument } from '@credo-ts/core'
 
-import { PolygonDID } from '@ayanworks/polygon-did-registrar'
+import { PolygonDID } from '@bhutan-ndi/polygon-did-registrar'
 import {
   DidDocumentBuilder,
   DidDocumentService,

@@ -49,22 +49,6 @@
   dependencies:
     static-eval "2.0.2"
 
-"@ayanworks/polygon-did-registrar@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@ayanworks/polygon-did-registrar/-/polygon-did-registrar-2.0.0-alpha.1.tgz#07584b526d01ebb370c82c777df73e22299b9079"
-  integrity sha512-boq2un5FLK4h+4q+94U2N+uwoiIHvAC1BwA8crR75vN9htiHIz0TepkJFLxj7Y1EJu+8pK24POFnAjnulLHWYQ==
-  dependencies:
-    "@ayanworks/polygon-did-registry-contract" "3.0.0"
-    "@ayanworks/polygon-did-resolver" "2.0.1-alpha.0"
-    "@credo-ts/core" "^0.5.3"
-    "@ethersproject/basex" "^5.7.0"
-    "@ethersproject/signing-key" "^5.7.0"
-    "@ethersproject/transactions" "^5.7.0"
-    "@ethersproject/wallet" "^5.7.0"
-    did-resolver "^4.1.0"
-    ethers "^6.9.0"
-    uuid "^9.0.1"
-
 "@ayanworks/polygon-did-registry-contract@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ayanworks/polygon-did-registry-contract/-/polygon-did-registry-contract-3.0.0.tgz#52b18768b887e933d44a9713b33dc2efbb1dcf53"
@@ -505,6 +489,31 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
+
+"@bhutan-ndi/polygon-did-registrar@0.0.0-alpha.0":
+  version "0.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@bhutan-ndi/polygon-did-registrar/-/polygon-did-registrar-0.0.0-alpha.0.tgz#86648aba2b442cb8b7da463a7035bc54de9a3aec"
+  integrity sha512-Ev6HRepQymTQIxFVeuXM+NDpm+9qcuF5CJCd7GqFe2axeLlH9+JtB6fFzBHWLsZGCzDlyugRUr8QAwDsifk1Jg==
+  dependencies:
+    "@ayanworks/polygon-did-registry-contract" "3.0.0"
+    "@bhutan-ndi/polygon-did-resolver" "0.0.1-alpha.1"
+    "@credo-ts/core" "^0.5.3"
+    "@ethersproject/basex" "^5.7.0"
+    "@ethersproject/signing-key" "^5.7.0"
+    "@ethersproject/transactions" "^5.7.0"
+    "@ethersproject/wallet" "^5.7.0"
+    did-resolver "^4.1.0"
+    ethers "^6.9.0"
+    uuid "^9.0.1"
+
+"@bhutan-ndi/polygon-did-resolver@0.0.1-alpha.1":
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@bhutan-ndi/polygon-did-resolver/-/polygon-did-resolver-0.0.1-alpha.1.tgz#0b66f00c70dd49750399e10eceeee109eada3121"
+  integrity sha512-2avxats2s+eMhA5+p3xvsI0XFRA1A2eyUVqMNVHH6mgu2nFcumI8vRzMxbBRnFF7RqP+d+HsnMuEoT4siqGNjQ==
+  dependencies:
+    "@ayanworks/polygon-did-registry-contract" "3.0.0"
+    did-resolver "^4.1.0"
+    ethers "^5.1.0"
 
 "@credo-ts/askar@0.5.3":
   version "0.5.3"

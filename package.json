@@ -1,8 +1,8 @@
 {
-  "name": "@ayanworks/credo-polygon-w3c-module",
+  "name": "@bhutan-ndi/credo-polygon-w3c-module",
   "main": "build/index",
   "types": "build/index",
-  "version": "2.0.0-alpha.1",
+  "version": "0.0.1-alpha.0",
   "files": [
     "build"
   ],
@@ -10,10 +10,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/ayanworks/afj-polygon-w3c-module",
+  "homepage": "https://github.com/Bhutan-NDI/credo-polygon-w3c-module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayanworks/afj-polygon-w3c-module"
+    "url": "https://github.com/Bhutan-NDI/credo-polygon-w3c-module"
   },
   "scripts": {
     "build": "yarn run clean && yarn run compile",
@@ -29,8 +29,8 @@
   "dependencies": {
     "@credo-ts/askar": "0.5.3",
     "@credo-ts/core": "0.5.3",
-    "@ayanworks/polygon-did-registrar": "2.0.0-alpha.1",
-    "@ayanworks/polygon-did-resolver": "2.0.1-alpha.0",
+    "@bhutan-ndi/polygon-did-registrar": "0.0.0-alpha.0",
+    "@bhutan-ndi/polygon-did-resolver": "0.0.1-alpha.1",
     "@ayanworks/polygon-schema-manager": "2.0.0-alpha.1",
     "did-resolver": "^4.1.0",
     "ethers": "^6.9.0"
