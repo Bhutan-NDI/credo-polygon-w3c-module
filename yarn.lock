@@ -54,29 +54,6 @@
   resolved "https://registry.yarnpkg.com/@ayanworks/polygon-did-registry-contract/-/polygon-did-registry-contract-3.0.0.tgz#52b18768b887e933d44a9713b33dc2efbb1dcf53"
   integrity sha512-RnW31nkDIMG1YzuOycxGGrJFpgTcpBwS/UZR6/wMPrsJBKBEN28k2CZImwXkbgaknyTfL7xe1u3C8NxfDvhI4Q==
 
-"@ayanworks/polygon-did-resolver@2.0.1-alpha.0":
-  version "2.0.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@ayanworks/polygon-did-resolver/-/polygon-did-resolver-2.0.1-alpha.0.tgz#182758c05dfbd2a61319114556843561d6ebd22f"
-  integrity sha512-W3S8iVblLtROspEGbYaBRuhtXMiiXPSjO78x7SvkK9X10ESr2mvBFYbWTMJe+0yjK1l4Ac64n/BArVq3RVBjZQ==
-  dependencies:
-    "@ayanworks/polygon-did-registry-contract" "3.0.0"
-    did-resolver "^4.1.0"
-    ethers "^5.1.0"
-
-"@ayanworks/polygon-schema-manager@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@ayanworks/polygon-schema-manager/-/polygon-schema-manager-2.0.0-alpha.1.tgz#d5ebef8183b2cb41901cf6f874d6f6c14012f203"
-  integrity sha512-nTPOEaBvdVcgC2haSxnHiOQu5tXX5HTAdkb8QCEh5A0VKxQmKFUH3nfQCwzOmL5FEzBJtNAJLmy7G71FDkRTBA==
-  dependencies:
-    "@ayanworks/polygon-did-registry-contract" "3.0.0"
-    "@ayanworks/polygon-did-resolver" "2.0.1-alpha.0"
-    "@nomicfoundation/hardhat-verify" "^2.0.3"
-    axios "^1.6.3"
-    did-resolver "^4.1.0"
-    ethers "^6.9.0"
-    keccak256 "^1.0.6"
-    uuid "^9.0.1"
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -514,6 +491,20 @@
     "@ayanworks/polygon-did-registry-contract" "3.0.0"
     did-resolver "^4.1.0"
     ethers "^5.1.0"
+
+"@bhutan-ndi/polygon-schema-manager@0.0.1-alpha.1":
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@bhutan-ndi/polygon-schema-manager/-/polygon-schema-manager-0.0.1-alpha.1.tgz#66e2375e95b3fcf329f60bf272378e01e2bde0cc"
+  integrity sha512-ubFKvra7YH/Eul8e3ybILL7HCrBmYQOHWD/9AEGuAbVwAlB/aK9pi6QCg9ktDxkyELnDls7rHhWCeXEdO0yiFA==
+  dependencies:
+    "@ayanworks/polygon-did-registry-contract" "3.0.0"
+    "@bhutan-ndi/polygon-did-resolver" "0.0.1-alpha.1"
+    "@nomicfoundation/hardhat-verify" "^2.0.3"
+    axios "^1.6.3"
+    did-resolver "^4.1.0"
+    ethers "^6.9.0"
+    keccak256 "^1.0.6"
+    uuid "^9.0.1"
 
 "@credo-ts/askar@0.5.3":
   version "0.5.3"

@@ -1,6 +1,6 @@
 import type { ResolverRegistry } from 'did-resolver'
 
-import { getResolver } from '@ayanworks/polygon-did-resolver'
+import { getResolver } from '@bhutan-ndi/polygon-did-resolver'
 import {
   DidDocument,
   type AgentContext,

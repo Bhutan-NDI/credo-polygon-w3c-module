@@ -2,7 +2,7 @@ import type { AgentContext, DidDocument, Wallet } from '@credo-ts/core'
 
 import { PolygonDID } from '@bhutan-ndi/polygon-did-registrar'
 import { parseDid } from '@bhutan-ndi/polygon-did-registrar/build/utils/did'
-import { PolygonSchema } from '@ayanworks/polygon-schema-manager'
+import { PolygonSchema } from '@bhutan-ndi/polygon-schema-manager'
 import { AskarProfileWallet, AskarWallet } from '@credo-ts/askar'
 import { CredoError, DidDocumentBuilder, DidRepository, WalletError, injectable, utils } from '@credo-ts/core'
 import { SigningKey } from 'ethers'

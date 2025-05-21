@@ -11,7 +11,7 @@ import type {
   Wallet,
 } from '@credo-ts/core'
 
-import { getResolver } from '@ayanworks/polygon-did-resolver'
+import { getResolver } from '@bhutan-ndi/polygon-did-resolver'
 import { AskarProfileWallet, AskarWallet } from '@credo-ts/askar'
 import {
   DidRepository,
